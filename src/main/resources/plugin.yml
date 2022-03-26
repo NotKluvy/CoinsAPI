@@ -1,0 +1,11 @@
+name: CoinsAPI
+version: '${project.version}'
+main: org.griblmc.coinsapi.CoinsAPI
+api-version: 1.18
+authors: [ NotKluvy ]
+commands:
+  coins:
+    usage: /coins
+permissions:
+  coins.admin:
+    default: op
